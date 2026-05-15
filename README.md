@@ -11,6 +11,7 @@ I dont add containers like box in it i used the full screen for this stopwatch a
 * **Full-Screen Presentation:** No boxes or containers and it covered full screen 
 * **High-Precision Timing:** It also tracks miliseconds
 * **Smart Lap Tracking:** You can also see the lap after your first time is recorded
+* **Fun Fact:** You can use this for breath holding challenge with your friends or sublings
 
 ## Project Structure
 
