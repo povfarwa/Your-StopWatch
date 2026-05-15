@@ -10,9 +10,9 @@ I dont add containers like box in it i used the full screen for this stopwatch a
 
 ## Features
 
-* **Full-Screen Presentation:** No boxes or containers it covered full screen 
+* **Full-Screen Presentation:** No boxes or containers and it covered full screen 
 * **High-Precision Timing:** It also tracks miliseconds
-* **Smart Lap Tracking:** The lap window stays hidden out of sight, sliding smoothly into view only when the first lap is actively recorded.
+* **Smart Lap Tracking:** You can also see the lap after your first time is recorded
 
 ## Project Structure
 
