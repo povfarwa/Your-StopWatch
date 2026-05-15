@@ -1,4 +1,4 @@
-# YOUR Stopwatch
+# Your Stopwatch
 
 I am building this StopWatch project it is very simple and also easy to use and make i used ultra-dark color palette (`#1A1A1D` and `#3B1C32`). 
 
