@@ -13,16 +13,19 @@ I dont add containers like box in it i used the full screen for this stopwatch a
 * **Fun Fact:** You can use this for breath holding challenge with your friends or sublings
 ---
 
-##Colors
+## Colors
 I used the dark themed colors and i get these colors from color pallete
 
 ---
 
-##Use Of Ai
+## Use Of Ai
 I am happy cause now i write 85% to 90% code by my self i write complete html and css by myself andd also just asked gemini to tell me logic in plain english and also i reveised those concepts which are needed in this project so that i can make it morre by myself but i used gemini ai in the event listeners i was getting confused in these and just asked some elements and tags name which are needed in this project
 
-##Live Demo
+## My Project
+<img width="1920" height="852" alt="image" src="https://github.com/user-attachments/assets/b36acbd7-eac0-419c-a5b3-f3e8dbade58c" />
 
+## Live Demo
+https://your-stop-watch.vercel.app/
 
 ## Project Structure
 
