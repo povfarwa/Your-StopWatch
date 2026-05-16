@@ -29,3 +29,34 @@ function formatTime(time){
     }
     return
 }
+
+
+function print(txt){
+    timeDisplay.innerHTML = txt
+}
+
+function start(){
+    startTime = Datenow() - elapsedTime
+    timeInterval = setInterval(function printTime(){
+        elapsedTime = Date.now() - startTime
+        print(formatTime(elapsedTime))
+    }, 10)
+
+    startBtn.textContent = "Stop"
+    startBtn.classList.add("running")
+    isRunning = true
+}
+
+function stop(){
+    clearInterval(timerInterval)
+    startBtn.textContent = "Start"
+    startBtn.classList.remove("running")
+    isRunning = false
+}
+
+function stop() {
+    clearInterval(timerInterval);
+    startBtn.textContent = "Start";
+    startBtn.classList.remove("running");
+    isRunning = false;
+}
