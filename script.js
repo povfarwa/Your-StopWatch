@@ -59,3 +59,38 @@ function stop() {
     startBtn.classList.remove("running");
     isRunning = false;
 }
+
+startBtn.addEventListener('click', () => {
+    if (!isRunning){
+        start()
+    }else{
+        stop()
+    }
+})
+
+lapBtn.addEventListener('clcik', () =>{
+    if(!isRunning) return
+    lapCount++
+
+    if(lapsList.style.display === "none"){
+        lapsList.style.display = "block"
+    }
+
+    const lapItem = document.createElement('div')
+    lapItem.classList.add('lap-item')
+    lapItem.innerHTML = `
+    <span class="lap-number">Lap ${lapCount}</span>
+    <span>${timeDisplay.innerHTML}</span>
+    `
+    lapsList.insertBefore(lapItem, lapsList.firstChild)
+})
+
+resetBtn.addEventListener('click', () => {
+    stop()
+    elapsedTime = 0
+    lapCount = 0
+    print("00:00:00<span class=\"ms\">.00</span>")
+    =lapsList.innerHTML = ""
+    lapsList.style.display = "none"
+    lapBtn.disabled = true
+})
