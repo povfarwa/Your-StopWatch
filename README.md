@@ -35,10 +35,11 @@ https://your-stop-watch.vercel.app/
 ## Project Structure
 
 ```text
-.
+
 ├── index.html   
 ├── style.css    
 └── script.js   
+```
 
 ---
 
