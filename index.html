@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your StopWatch</title>
+    <title>Stopwatch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="stopwatch-display">
-        <div id="time">00:00:00 <span class="ms">.00</span></div>
+        <div id="time">00:00:00<span class="ms">.00</span></div>
     </main>
     <nav class="controls">
         <button id="startBtn" class="btn start">Start</button>
-        <button id="lapBtn" class="btn lap">Lap</button>
-        <button id="resetBtn" class="btn rseet">Reset</button>
+        <button id="lapBtn" class="btn lap" disabled>Lap</button>
+        <button id="resetBtn" class="btn reset">Reset</button>
     </nav>
 
-    <section class="laps-container" id="lapsListt" style="display: none"></section>
+    <section class="laps-container" id="lapsList" style="display: none;">
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

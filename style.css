@@ -44,6 +44,18 @@ body{
     margin-bottom: 2rem;
 }
 
+.controls #startBtn:hover{
+    background-color:#532646 
+}
+
+.controls #lapBtn:hover{
+    background-color : #532646
+}
+
+.controls #resetBtn:hover{
+    background-color : #532646 
+}
+
 .btn {
     background: transparent;
     border: 1px solid #333333;
