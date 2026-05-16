@@ -2,6 +2,7 @@
 
 I am building this StopWatch project it is very simple and also easy to use and make i used ultra-dark color palette (`#1A1A1D` and `#3B1C32`). 
 I dont add containers like box in it i used the full screen for this stopwatch and also used the colors which doesnot hurt your eyes
+It an count times and also show miliseconds
 
 ---
 
